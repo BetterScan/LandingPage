@@ -1,6 +1,7 @@
 .landing-page-container {
   display: flex;
   justify-content: center;
+  width: 98vw;
   /* background-color: rgb(228, 194, 194); */
 }
 .landing-page-wrap {

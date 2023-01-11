@@ -3,13 +3,15 @@ import "./LandingPrincipal.css";
 function LandingPrincipal() {
   return (
     <div className="landing-principal-container">
-      <div className="lading-principal-svg">
+      {/* <div className="lading-principal-svg">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           // width="1012"
-          width="67.27vw"
+          // width="67.27vw"
           // height="832"
-          height="100vh"
+          // height="100vh"
+          width="100%"
+          height="100%"
           viewBox="0 0 1012 832"
           fill="none"
         >
@@ -33,7 +35,7 @@ function LandingPrincipal() {
             </linearGradient>
           </defs>
         </svg>
-      </div>
+      </div> */}
     </div>
   );
 }

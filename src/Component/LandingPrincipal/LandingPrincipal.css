@@ -8,11 +8,15 @@
   justify-content: flex-end;
   align-items: flex-start;
 }
-.lading-principal-svg{
+.lading-principal-svg {
   max-height: 99.5vh;
+  min-height: 100%;
+  height: 100%;
+  width: 90%;
+  transform: translateX(10%);
   /* background-color: red; */
 }
 .landing-principal-container svg {
   /* transform: rotate(9.731deg); */
-  flex-shrink: 0;
+  /* flex-shrink: 0; */
 }
