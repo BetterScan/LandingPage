@@ -1,13 +1,15 @@
 import React from "react";
-// import betterScanLogo from "./betterScanLogo";
-// import {ReactComponent as betterScanLogo} from "./betterScanLogo.tsx";
-import BetterScanLogo from "./betterScanLogo.tsx";
 import "./App.css";
+import LandingPrincipal from "./Component/LandingPrincipal/LandingPrincipal.tsx";
+import FeaturesPresentation from "./Component/FeaturesPresentation/FeaturesPresentation.tsx";
 
 function App() {
   return (
-    <div className="App">
-      <BetterScanLogo />
+    <div className="landing-page-container">
+      <div className="landing-page-wrap">
+        <LandingPrincipal />
+        <FeaturesPresentation />
+      </div>
     </div>
   );
 }
