@@ -1,0 +1,20 @@
+.navbar-container {
+  width: 100%;
+  height: 88px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-logo-container {
+  width: 215px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.navbar-langage-cta-container {
+}
+.navbar-cta {
+  
+}

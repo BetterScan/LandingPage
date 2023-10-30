@@ -1,6 +1,6 @@
 import React from "react";
 
-const betterScanLogo: React.FC = () => (
+const BetterScanLogo: React.FC = () => (
   <svg
     width="36"
     height="36"
@@ -85,4 +85,4 @@ const betterScanLogo: React.FC = () => (
   </svg>
 );
 
-export default betterScanLogo;
+export default BetterScanLogo;
