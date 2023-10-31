@@ -1,6 +1,18 @@
 .landing-principal-container {
-    min-height: 100vh;
-    /* width: 100vw; */
-    width: 100%;
-  background-color: red;
+  min-height: 100vh;
+  /* width: 100vw; */
+  width: 100%;
+  /* background-color: red; */
+  border: 4px solid black;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.lading-principal-svg{
+  max-height: 99.5vh;
+  /* background-color: red; */
+}
+.landing-principal-container svg {
+  /* transform: rotate(9.731deg); */
+  flex-shrink: 0;
 }

@@ -1,9 +1,11 @@
 .landing-page-container {
   display: flex;
   justify-content: center;
-  background-color: rgb(228, 194, 194);
+  /* background-color: rgb(228, 194, 194); */
 }
 .landing-page-wrap {
   max-width: 88.8888889%;
   width: 100%;
+  border: solid 1px red;
 }
+
