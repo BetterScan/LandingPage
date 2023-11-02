@@ -1,6 +1,12 @@
 @font-face {
-	font-family: "" ;
-	src: url();
+  font-family: "manrope-regular";
+  src: url("./Assets/Fonts/Manrope/static/Manrope-Regular.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "satoshi-regular";
+  src: url("./Assets/Fonts/Satoshi_Complete/Satoshi-Regular.otf")
+    format("opentype");
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
