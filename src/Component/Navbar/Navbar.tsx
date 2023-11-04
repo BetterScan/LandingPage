@@ -9,23 +9,23 @@ import arrowBottom from "../../Assets/arrow-bottom.png";
 function Navbar() {
   return (
     <>
-    <div className="navbar-container">
-      <div className="navbar-logo-container">
-        <BetterScanLogo />
-        <BetterScanLogoText />
-      </div>
-      <div className="navbar-langage-cta-container">
-        <div className="navbar-langage">
-          <ReactCountryFlag countryCode="FR" svg />
-          Français
-          <img src={arrowBottom} alt="" />
+      <div className="navbar-container">
+        <div className="navbar-wrap">
+          <div className="navbar-logo-container">
+            <BetterScanLogo />
+            <BetterScanLogoText />
+          </div>
+          <div className="navbar-langage-cta-container">
+            <div className="navbar-langage">
+              <ReactCountryFlag countryCode="FR" svg />
+              Français
+              <img src={arrowBottom} alt="" />
+            </div>
+            <button className="navbar-cta">M'avertir de la sortie</button>
+          </div>
         </div>
-        <button className="navbar-cta">M'avertir de la sortie</button>
+        <div className="navbar-separation-line"></div>
       </div>
-    </div>
-    <div className="navbar-separation-line">
-      
-    </div>
     </>
   );
 }

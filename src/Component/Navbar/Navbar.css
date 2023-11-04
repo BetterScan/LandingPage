@@ -1,10 +1,25 @@
 .navbar-container {
   width: 100%;
+  max-width: 87.8888889%;
   height: 88px;
   /* background-color: red; */
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column-reverse;
+justify-content: ;
+  /* align-items: center; */
+  position: fixed;
+  /* background: #FAFAFB; */
+}
+.navbar-wrap{
+    width: 100%;
+    max-width: 87.8888889%;
+    height: 88px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background: #FAFAFB;
 }
 .navbar-logo-container {
   width: 215px;
@@ -56,5 +71,7 @@
 }
 .navbar-separation-line{
     width: 100%;
-    border-bottom: 1px solid rgba(42, 59, 81, 0.10); ;
+    /* height: 1px; */
+    border-bottom: 1px solid rgba(42, 59, 81, 0.10); 
+    z-index: 1;
 }
