@@ -6,12 +6,11 @@ function LandingPrincipal() {
       <div className="landing-principal-bloc-description-container">
         <div className="landing-principal-bloc-description-title">
           <div className="landing-principal-bloc-description-title-first-part">
-            Plus simple, votre nouvel explorateur de <span className="landing-principal-bloc-description-title-transaction">transaction</span>
+            Plus simple, votre nouvel explorateur de{" "}
+            <span className="landing-principal-bloc-description-title-transaction">
+              transaction
+            </span>
           </div>
-          {/* Plus simple, votre nouvel explorateur de */}
-          {/* <div className="landing-principal-bloc-description-title-transaction">
-            transaction
-          </div> */}
         </div>
       </div>
     </div>
