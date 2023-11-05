@@ -1,26 +1,19 @@
 .landing-principal-container {
   min-height: 100vh;
-  /* width: 100vw; */
   width: 100%;
-  /* background-color: red; */
-  /* border: 4px solid black; */
   display: flex;
-  /* justify-content: flex-end; */
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
-  padding-top: 88px;
+  /* padding-top: 88px; */
   background: url("../../Assets//background-landing-principal.svg");
   background-size: cover;
-  /* background: url("../../Assets//background-landing-principal.svg") no-repeat
-    center;
-  background-size:80% auto; 
-  background-position: 170% center;  */
+  /* background-color: red; */
 }
 .landing-principal-bloc-description-container {
   width: 42.77%;
   /* height: 40%; */
   height: 371px;
-  margin-top: 10%;
+  /* margin-top: 10%; */
   /* background-color: yellowgreen; */
 }
 .landing-principal-bloc-description-title {
@@ -178,7 +171,7 @@
   position: relative;
 }
 .landing-principal-screenshot-explorer-container {
-  margin-top: 8%;
+  /* margin-top: 8%; */
   width: 57%;
   display: flex;
   justify-content: center;
