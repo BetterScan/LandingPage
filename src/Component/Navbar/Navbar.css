@@ -5,10 +5,10 @@
   /* background-color: red; */
   display: flex;
   flex-direction: column-reverse;
-justify-content: ;
   /* align-items: center; */
   position: fixed;
   /* background: #FAFAFB; */
+  z-index: 100;
 }
 .navbar-wrap{
     width: 100%;
