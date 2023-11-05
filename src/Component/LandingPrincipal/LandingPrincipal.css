@@ -19,8 +19,30 @@
 .landing-principal-bloc-description-title {
   font-size: 42px;
   width: 100%;
+  max-height: 83px;
+  height: 100%;
   display: flex;
+  /* background-color: tomato; */
+  position: relative;
 }
-.landing-principal-bloc-description-title-transaction{
-width: auto;
+.landing-principal-bloc-description-title-first-part {
+  /* background-color: firebrick; */
+  font-weight: 700;
+}
+.landing-principal-bloc-description-title-transaction {
+  /* width: min-content; */
+  /* background-color: violet; */
+  /* display: flex; */
+  background: var(
+    --orange-gradient,
+    linear-gradient(90deg, #ffd94a -27.11%, #f74545 53.98%, #95649d 128.58%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* font-family: Satoshi; */
+  font-size: 42px;
+  font-style: normal;
+  /* font-weight: 700; */
+  line-height: 50px;
 }
