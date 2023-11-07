@@ -21,7 +21,7 @@ function Navbar() {
               Français
               <img src={arrowBottom} alt="" />
             </div>
-            <button className="navbar-cta">M'avertir de la sortie</button>
+            <button className="navbar-cta-button">M'avertir de la sortie</button>
           </div>
         </div>
         <div className="navbar-separation-line"></div>

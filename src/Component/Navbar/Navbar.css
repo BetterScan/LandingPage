@@ -46,7 +46,7 @@
 .navbar-langage:hover {
   background-color: ;
 }
-.navbar-cta {
+.navbar-cta-button {
   font-family: "manrope-regular";
   font-size: 16px;
   color: white;
@@ -63,15 +63,22 @@
   cursor: pointer;
   user-select: none;
 }
-.navbar-cta:active {
+.navbar-cta-button:active {
   /* transform: scale(0.85);
   transition-duration: 200ms; */
   transform: translateY(2px);
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
 }
 .navbar-separation-line{
-    width: 100%;
-    /* height: 1px; */
-    border-bottom: 1px solid rgba(42, 59, 81, 0.10); 
-    z-index: 1;
+  width: 100%;
+  /* height: 1px; */
+  border-bottom: 1px solid rgba(42, 59, 81, 0.10); 
+  z-index: 1;
+}
+@media (max-width:830px) {
+  .navbar-cta-button{
+    
+    padding: 8px 8px;
+    font-size: 14px;
+  }
 }
