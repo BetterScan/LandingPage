@@ -2,12 +2,22 @@
   display: flex;
   justify-content: center;
   width: 98vw;
+  /* max-width: 98vw; */
+  /* width: 96vw; */
   font-family: "satoshi-regular";
   /* background-color: rgb(228, 194, 194); */
 }
 .landing-page-wrap {
   max-width: 88.8888889%;
   width: 100%;
+  /* overflow: hidden !important; */
   /* border: solid 1px red; */
+  /* background-color: blueviolet; */
+  overflow: hidden;
 }
 
+@media (max-width: 830px) {
+  .landing-page-container {
+    width: 94vw;
+  }
+}

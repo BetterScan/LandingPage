@@ -3,7 +3,7 @@ import twitterLogo from "../../Assets/Twitter.svg";
 import telegramLogo from "../../Assets/Telegram.svg";
 import linkedinLogo from "../../Assets/LinkedIn.svg";
 import explorerScreenShot from "../../Assets/explorer-screenshot.png";
-import backgroundLandingPrincipal from "../../Assets/background-landing-principal.svg";
+// import backgroundLandingPrincipal from "../../Assets/background-landing-principal.svg";
 import "./LandingPrincipal.css";
 function LandingPrincipal() {
   return (
