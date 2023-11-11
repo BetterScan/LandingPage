@@ -72,11 +72,13 @@
   transform: translateY(2px);
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
 }
-.navbar-separation-line {
-  width: 100%;
-  /* height: 1px; */
-  border-bottom: 1px solid rgba(42, 59, 81, 0.1);
-  z-index: 1;
+/* Check documentation styling https://github.com/negomi/react-burger-menu#styling */
+
+.bm-burger-button {
+  display: none;
+}
+.side-menu-container {
+  z-index: 4564564654 !important;
 }
 @media (max-width: 830px) {
   .navbar-container {
@@ -128,6 +130,7 @@
     width: 75px;
   }
 }
+/* Mobile format begin */
 @media (max-width: 530px) {
   .navbar-logo-container {
     width: 130px;
@@ -140,11 +143,10 @@
     width: calc(146px - 35%);
   }
   .navbar-cta-button {
-    padding: 6px 4px;
-    font-size: 10px;
+    display: none;
   }
   .navbar-langage-cta-container {
-    width: 190px;
+    width: 120px;
   }
   .navbar-langage {
     display: flex;
@@ -154,5 +156,101 @@
   }
   .navbar-langage-cta-container img {
     width: 7px;
+  }
+  /*  */
+  .bm-burger-button {
+    display: flex;
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    right: 36px;
+    top: 36px;
+  }
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: #373a47;
+  }
+.bm-burger-button span {
+  height: 15% !important;
+}
+  /* Color/shape of burger icon bars on hover*/
+  .bm-burger-bars-hover {
+    /* background: #a90000; */
+    background: linear-gradient(
+      90deg,
+      rgba(255, 217, 74, 0.8) -27.11%,
+      rgba(247, 69, 69, 0.8) 53.98%,
+      rgba(149, 100, 157, 0.8) 128.58%
+    );
+    transition-duration: 300ms ;
+  }
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+  }
+  .bm-cross {
+    background: #bdc3c7;
+  }
+  /*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+  .bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+    transform: translateX(-10vw);
+  }
+
+  /* General sidebar styles */
+  .bm-menu {
+    background: #373a47;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+    overflow: hidden !important;
+  }
+
+  /* Morph shape necessary with bubble or elastic */
+  .bm-morph-shape {
+    fill: #373a47;
+  }
+
+  /* Wrapper for item list */
+  .bm-item-list {
+    color: #b8b7ad;
+    padding: 0.8em;
+  }
+
+  /* Individual item */
+  .bm-item {
+    display: inline-block;
+  }
+
+  /* Styling of overlay */
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+    .navbar-separation-line {
+      width: 100%;
+      /* height: 1px; */
+      border-bottom: 1px solid rgba(42, 59, 81, 0.1);
+      z-index: 1;
+    }
+  }
+  .navbar-cta-button-side-menu {
+    font-family: "manrope-regular";
+    font-size: 12px;
+    color: white;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    background: linear-gradient(
+      90deg,
+      rgba(255, 217, 74, 0.8) -27.11%,
+      rgba(247, 69, 69, 0.8) 53.98%,
+      rgba(149, 100, 157, 0.8) 128.58%
+    );
+    padding: 8px 14px;
+    color: white;
+    cursor: pointer;
+    user-select: none;
   }
 }

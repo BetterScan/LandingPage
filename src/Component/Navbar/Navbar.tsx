@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
+import { slide as Menu } from "react-burger-menu";
 // import betterScanLogoText from '../../betterScanLogoText'
 import BetterScanLogo from "../../betterScanLogo.tsx";
 import BetterScanLogoText from "../../betterScanLogoText.tsx";
@@ -28,6 +29,9 @@ function Navbar() {
         </div>
         <div className="navbar-separation-line"></div>
       </div>
+        <Menu width={"280px"}>
+          <button className="navbar-cta-button-side-menu">M'avertir de la sortie</button>
+        </Menu>
     </>
   );
 }
