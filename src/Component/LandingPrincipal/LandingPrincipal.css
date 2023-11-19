@@ -227,11 +227,79 @@
     /* margin-top: 100px; */
     margin-top: 11.7%;
   }
-  .landing-principal-bloc-description-title{
+  .landing-principal-bloc-description-title {
     max-height: 90px;
   }
   .landing-principal-bloc-description-title-first-part,
   .landing-principal-bloc-description-title-transaction {
     font-size: 30px !important;
+  }
+}
+@media (max-width: 530px) {
+  .landing-principal-bloc-description-title-first-part,
+  .landing-principal-bloc-description-title-transaction {
+    font-size: 24px !important;
+    padding-top: 20px;
+  }
+  .landing-principal-bloc-description-socials {
+    width: 70%;
+    margin-top: 10px;
+    /* background-color: red; */
+  }
+  .landing-principal-bloc-description-text {
+    margin-top: 20px;
+  }
+  .landing-principal-bloc-description-text p {
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .landing-principal-bloc-description-socials-title {
+    font-size: 13px;
+  }
+  .landing-principal-bloc-description-socials > div > a > img {
+    /* background-color: red; */
+    width: 18px;
+    height: 18px;
+  }
+  .landing-principal-bloc-cta-buttons-container {
+    width: 50%;
+  }
+  .landing-principal-bloc-cta-discover-button,
+  .landing-principal-bloc-cta-whitepaper-button {
+    /* width: 100px; */
+    /* height: 30px; */
+    width: 47%;
+    height: 80%;
+  }
+  .landing-principal-bloc-cta-discover-button p,
+  .landing-principal-bloc-cta-whitepaper-button p {
+    /* font-size: 13px; */
+    font-size: 80%;
+  }
+  .landing-principal-screenshot-explorer-container img {
+    width: calc(440px * 0.6);
+  }
+}
+@media (max-width: 330px) {
+  .landing-principal-screenshot-explorer-container img {
+    width: calc(440px * 0.5);
+  }
+}
+@media (max-height: 930px) {
+  .landing-principal-container {
+    /* min-height: calc(100vh-)!important; */
+    padding-top: 4vh !important;
+  }
+  .landing-principal-screenshot-explorer-container img {
+    /* width: calc(440px * 0.8); */
+  }
+}
+@media (max-height: 730px) {
+  .landing-principal-container {
+    /* min-height: calc(100vh-)!important; */
+    padding-top: 8vh !important;
+  }
+  .landing-principal-screenshot-explorer-container img {
+    /* width: calc(440px * 0.8); */
   }
 }
