@@ -1,5 +1,60 @@
 .features-presentation-container {
   min-height: 100vh;
+  width: 100%;
   /* width: 100vw; */
-  background-color: green;
+  /* background-color: green; */
+  padding-top: 88px;
+}
+.features-presentation-title-container {
+  font-family: "satoshi-regular";
+  color: #2a3b51;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 42px;
+}
+.features-presentation-title-container > div:nth-child(2) {
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 15px;
+  font-family: "manrope-regular";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+.features-presentation-concept-container {
+  margin-top: 48px;
+  /* width: 824px; */
+  width: 100%;
+  max-width: 824px;
+  height: 276px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 217, 74, 0.12) -27.11%,
+    rgba(247, 69, 69, 0.12) 53.98%,
+    rgba(149, 100, 157, 0.12) 128.58%
+  );
+}
+.features-presentation-concept-title {
+  margin-left: 32px;
+  margin-top: 22px;
+  font-size: 20.445px;
+  font-weight: 700;
+  line-height: 24.675px;
+  font-family: "satoshi-regular";
+  background: var(
+    --orange-gradient,
+    linear-gradient(90deg, #ffd94a -27.11%, #f74545 53.98%, #95649d 128.58%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.features-presentation-concept-description{
+  margin-left: 32px;
+  margin-top: 12px;
+  font-size: 11.28px;
+}
+.features-presentation-concept-container img{
+margin-top: 57px;
 }

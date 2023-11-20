@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Navbar.css";
 import { slide as Menu } from "react-burger-menu";
 // import betterScanLogoText from '../../betterScanLogoText'

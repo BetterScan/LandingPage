@@ -5,6 +5,7 @@ import linkedinLogo from "../../Assets/LinkedIn.svg";
 import explorerScreenShot from "../../Assets/explorer-screenshot.png";
 // import backgroundLandingPrincipal from "../../Assets/background-landing-principal.svg";
 import "./LandingPrincipal.css";
+import { Link } from "react-router-dom";
 function LandingPrincipal() {
   return (
     <div className="landing-principal-container">
@@ -44,9 +45,13 @@ function LandingPrincipal() {
           </div>
         </div>
         <div className="landing-principal-bloc-cta-buttons-container">
-          <button className="landing-principal-bloc-cta-discover-button">
-            <p>Découvrir</p>
-          </button>
+          {/* <Link to="/#features-presentation"> */}
+          <a href="/#features-presentation">
+            <button className="landing-principal-bloc-cta-discover-button">
+              <p>Découvrir</p>
+            </button>
+          </a>
+          {/* </Link> */}
           <button className="landing-principal-bloc-cta-whitepaper-button">
             <p>Whitepaper</p>
           </button>
