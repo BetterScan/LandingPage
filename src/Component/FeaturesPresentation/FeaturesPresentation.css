@@ -20,11 +20,15 @@
   font-weight: 500;
   line-height: normal;
 }
-.features-presentation-concept-container {
+.features-presentation-concept-and-multi-lang-container {
+  display: flex;
   margin-top: 48px;
-  /* width: 824px; */
   width: 100%;
-  max-width: 824px;
+  max-width: 1320px;
+}
+.features-presentation-concept-container {
+  /* width: 824px; */
+  width: 62.4242%;
   height: 276px;
   border-radius: 8px;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -34,6 +38,7 @@
     rgba(247, 69, 69, 0.12) 53.98%,
     rgba(149, 100, 157, 0.12) 128.58%
   );
+  overflow: hidden;
 }
 .features-presentation-concept-title {
   margin-left: 32px;
@@ -50,11 +55,37 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.features-presentation-concept-description{
+.features-presentation-concept-description {
   margin-left: 32px;
   margin-top: 12px;
   font-size: 11.28px;
 }
-.features-presentation-concept-container img{
-margin-top: 57px;
+.features-presentation-concept-container img {
+  margin-top: 57px;
+}
+.features-presentation-multi-lang-container {
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: #fff;
+  width: 34.54%;
+  height: 276px;
+  margin-left: 40px;
+}
+.features-presentation-multi-lang-title {
+  font-family: "satoshi-regular";
+  font-size: 20.445px;
+  font-weight: 700;
+  line-height: 24.675px;
+  margin-left: 32px;
+  margin-top: 22px;
+}
+.features-presentation-multi-lang-description {
+  margin-left: 32px;
+  margin-top: 12px;
+  font-size: 11.28px;
+}
+.features-presentation-multi-lang-img-container{
+  display: flex;
+  margin-left: 32px;
+  margin-top: 35px;
 }
