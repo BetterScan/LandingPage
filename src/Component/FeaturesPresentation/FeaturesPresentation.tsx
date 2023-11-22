@@ -23,7 +23,7 @@ function FeaturesPresentation() {
               Lorem ipsum dolor u tendamas dolor u tendamas lorem ipsum dolor u
               tendamas Lorem ipsum dolor u tendamas dolor.
             </div>
-            <img src={testimonialsImg} alt="testimonials image" />
+            <img src={testimonialsImg} alt="testimonials" />
             {/* 1320 */}
           </div>
           <div className="features-presentation-multi-lang-container">

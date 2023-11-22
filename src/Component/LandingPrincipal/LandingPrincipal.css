@@ -94,6 +94,9 @@
   /* background-color: hotpink; */
   user-select: none;
 }
+.landing-principal-bloc-cta-buttons-container button {
+  cursor: pointer;
+}
 .landing-principal-bloc-cta-discover-button {
   width: 122px;
   height: 38px;
@@ -264,12 +267,24 @@
   .landing-principal-bloc-cta-buttons-container {
     width: 50%;
   }
-  .landing-principal-bloc-cta-discover-button,
+  /* .landing-principal-bloc-cta-discover-button, */
   .landing-principal-bloc-cta-whitepaper-button {
     /* width: 100px; */
     /* height: 30px; */
     width: 47%;
     height: 80%;
+  }
+  .landing-principal-bloc-cta-buttons-container > a {
+    max-width: 47% !important;
+    max-height: 80% !important;
+    width: 47% !important;
+    height: 80% !important;
+    /* background-color: red; */
+  }
+  .landing-principal-bloc-cta-buttons-container > a > button {
+    max-width: 100% !important;
+    max-height: 100% !important;
+    /* background-color: black; */
   }
   .landing-principal-bloc-cta-discover-button p,
   .landing-principal-bloc-cta-whitepaper-button p {

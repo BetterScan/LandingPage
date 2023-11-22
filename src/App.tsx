@@ -3,7 +3,7 @@ import "./App.css";
 import LandingPrincipal from "./Component/LandingPrincipal/LandingPrincipal.tsx";
 import FeaturesPresentation from "./Component/FeaturesPresentation/FeaturesPresentation.tsx";
 import Navbar from "./Component/Navbar/Navbar.tsx";
-import { slide as Menu } from "react-burger-menu"; 
+// import { slide as Menu } from "react-burger-menu"; 
 function App() {
   return (
     <>

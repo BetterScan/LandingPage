@@ -5,7 +5,6 @@ import linkedinLogo from "../../Assets/LinkedIn.svg";
 import explorerScreenShot from "../../Assets/explorer-screenshot.png";
 // import backgroundLandingPrincipal from "../../Assets/background-landing-principal.svg";
 import "./LandingPrincipal.css";
-import { Link } from "react-router-dom";
 function LandingPrincipal() {
   return (
     <div className="landing-principal-container">
@@ -30,14 +29,15 @@ function LandingPrincipal() {
             Follow us
           </div>
           <div>
-            <a target="_blank" href="https://twitter.com/TheBetterScan">
+            <a target="_blank" rel="noreferrer" href="https://twitter.com/TheBetterScan">
               <img src={twitterLogo} alt="twitter logo" />
             </a>
-            <a target="_blank" href="https://t.me/+6fxEnCSHII01M">
+            <a target="_blank" rel="noreferrer" href="https://t.me/+6fxEnCSHII01M">
               <img src={telegramLogo} alt="telegram logo" />
             </a>
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.linkedin.com/company/betterscan/"
             >
               <img src={linkedinLogo} alt="linkedin logo" />
@@ -47,7 +47,10 @@ function LandingPrincipal() {
         <div className="landing-principal-bloc-cta-buttons-container">
           {/* <Link to="/#features-presentation"> */}
           <a href="/#features-presentation">
-            <button className="landing-principal-bloc-cta-discover-button">
+            <button
+              // onClick={() => (window.location.hash = "features-presentation")}
+              className="landing-principal-bloc-cta-discover-button"
+            >
               <p>Découvrir</p>
             </button>
           </a>
