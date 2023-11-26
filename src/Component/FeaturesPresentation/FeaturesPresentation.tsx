@@ -38,6 +38,11 @@ function FeaturesPresentation() {
             </div>
           </div>
         </div>
+        <div className="features-presentation-follow-tx-and-blockhains-container">
+          <div className="features-presentation-follow-tx-container">
+            
+          </div>
+        </div>
       </div>
     </>
   );
