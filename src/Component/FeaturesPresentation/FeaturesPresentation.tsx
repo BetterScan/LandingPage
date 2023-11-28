@@ -2,6 +2,9 @@ import React from "react";
 import "./FeaturesPresentation.css";
 import testimonialsImg from "../../Assets/testimonials.svg";
 import multiLang from "../../Assets/multilang.svg";
+import rectangleDashed from "../../Assets/rectangle-follow-tx.svg";
+import betterScanLogoOrange from "../../Assets/betterscan-orange-gradient-logo.svg";
+import lastTransactions from "../../Assets/last-transactions.svg";
 function FeaturesPresentation() {
   return (
     <>
@@ -40,7 +43,25 @@ function FeaturesPresentation() {
         </div>
         <div className="features-presentation-follow-tx-and-blockhains-container">
           <div className="features-presentation-follow-tx-container">
-            
+            <div className="features-presentation-follow-tx-wrap">
+              <img
+                className="features-presentation-follow-tx-image"
+                src={rectangleDashed}
+                alt="rectangle dashed"
+              />
+              <div className="features-presentation-follow-tx-title">
+                Suivre vos transactions n’a jamais été aussi simple
+              </div>
+              <div className="features-presentation-follow-tx-logo-and-tx-container">
+                <div className="features-presentation-follow-betterscan-orange-logo">
+                  <img
+                    src={betterScanLogoOrange}
+                    alt="betterscan logo orange"
+                  />
+                </div>
+                <img src={lastTransactions} alt="betterscan logo orange" />
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -101,10 +101,45 @@
   width: 35.54%;
   height: 276px;
   /* overflow: hidden; */
-  background-image: url("../../Assets/rectangle-follow-tx.svg");
+  /* background-image: url("../../Assets/rectangle-follow-tx.svg"); */
   /* border: dashed 1px var(--orange-gradient, #ffd94a); */
   /* border-radius: 8px; */
   z-index: 2;
+  position: relative;
+}
+.features-presentation-follow-tx-wrap {
+  width: 100%;
+  height: 100%;
+  /* background-image: url("../../Assets/rectangle-follow-tx.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+   */
+  position: absolute;
+}
+.features-presentation-follow-tx-image {
+  position: absolute;
+  /* top: 200px; */
+}
+.features-presentation-follow-tx-title {
+  color: #2a3b51;
+
+  font-family: "satoshi-regular";
+  font-size: 20.445px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24.675px;
+  margin-top: 22px;
+  margin-left: 32px;
+}
+.features-presentation-follow-tx-logo-and-tx-container {
+  width: 100%;
+  margin-top: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+.features-presentation-follow-betterscan-orange-logo {
+  display: flex;
+  margin-left: 36px;
 }
 @media (max-width: 830px) {
   .features-presentation-concept-title,
