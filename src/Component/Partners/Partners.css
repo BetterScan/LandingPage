@@ -1,17 +1,18 @@
 .partners-container {
   background-color: white;
   /* background-color: #f74545 ; */
-  min-height: 50vh;
+  min-height: 30vh;
   /* min-width:120vw !important; */
   /* transform: translateX(-20vw) ; */
   display: flex;
   justify-content: center;
-  align-items: center;
-  padding: 0px 20px;
+  /* align-items: center; */
+  padding: 5% 20px;
+  margin-top: 50px;
 }
 .partners-wrap {
   width: 100%;
-  height: 80%;
+  height: 90%;
   /* background-color: darkcyan; */
 }
 .partners-title-and-description-container {
@@ -37,7 +38,7 @@
   /* font-weight: 700; */
   line-height: 50px;
   /* background-color: violet; */
-  padding-left: 12px;
+  /* padding-left: 12px; */
 }
 .partners-description-container {
   color: rgba(0, 0, 0, 0.6);
@@ -58,6 +59,8 @@
   justify-content: space-between;
   align-items: center;
 }
+.partners-logo-corporations-partners a {
+}
 .partners-logo-corporations-huge-letter {
   background-image: url("../../Assets/huge-letter-partner.svg");
   background-color: lightgray;
@@ -65,8 +68,10 @@
   background-repeat: no-repeat;
   /* background-position: 50% 50%; */
   mix-blend-mode: luminosity;
-  width: 169px;
-  height: 70px;
+  --width-original-partner-logo: 169px;
+  --height-original-partner-logo: 70px;
+  width: var(--width-original-partner-logo);
+  height: var(--height-original-partner-logo);
 }
 .partners-logo-corporations-human-lab {
   background-image: url("../../Assets/human-lab-partner.svg");
@@ -75,8 +80,10 @@
   background-repeat: no-repeat;
   /* background-position: 50% 50%; */
   mix-blend-mode: luminosity;
-  width: 70px;
-  height: 70px;
+  --width-original-partner-logo: 70px;
+  --height-original-partner-logo: 70px;
+  width: var(--width-original-partner-logo);
+  height: var(--height-original-partner-logo);
 }
 .partners-logo-corporations-coinaute {
   background-image: url("../../Assets/coinaute-partner.svg");
@@ -85,8 +92,10 @@
   background-repeat: no-repeat;
   /* background-position: 50% 50%; */
   mix-blend-mode: luminosity;
-  width: 147px;
-  height: 70px;
+  --width-original-partner-logo: 147px;
+  --height-original-partner-logo: 70px;
+  width: var(--width-original-partner-logo);
+  height: var(--height-original-partner-logo);
 }
 .partners-logo-corporations-avicienne {
   background-image: url("../../Assets/avicienne-partner.svg");
@@ -95,8 +104,10 @@
   background-repeat: no-repeat;
   /* background-position: 50% 50%; */
   mix-blend-mode: luminosity;
-  width: 70px;
-  height: 70px;
+  --width-original-partner-logo: 70px;
+  --height-original-partner-logo: 70px;
+  width: var(--width-original-partner-logo);
+  height: var(--height-original-partner-logo);
 }
 .partners-logo-corporations-jwcorp {
   background-image: url("../../Assets/jwcorp-partner.svg");
@@ -105,8 +116,10 @@
   background-repeat: no-repeat;
   /* background-position: 50% 50%; */
   mix-blend-mode: luminosity;
-  width: 90px;
-  height: 90px;
+  --width-original-partner-logo: 90px;
+  --height-original-partner-logo: 90px;
+  width: var(--width-original-partner-logo);
+  height: var(--height-original-partner-logo);
 }
 .partners-logo-corporations-huge-letter:hover,
 .partners-logo-corporations-human-lab:hover,
@@ -115,4 +128,41 @@
 .partners-logo-corporations-jwcorp:hover {
   mix-blend-mode: normal;
   transition-duration: 400ms;
+}
+@media (max-width: 930px) {
+  .partners-title-and-description-container,
+  .partners-title-and-description-container span {
+    font-size: 24px;
+  }
+  .partners-description-container {
+    font-size: 12.28px;
+  }
+  .partners-logo-corporations-huge-letter,
+  .partners-logo-corporations-human-lab,
+  .partners-logo-corporations-coinaute,
+  .partners-logo-corporations-avicienne,
+  .partners-logo-corporations-jwcorp {
+    width: calc(var(--width-original-partner-logo) * 0.8);
+    height: calc(var(--height-original-partner-logo) * 0.8);
+  }
+}
+@media (max-width: 730px) {
+  .partners-logo-corporations-huge-letter,
+  .partners-logo-corporations-human-lab,
+  .partners-logo-corporations-coinaute,
+  .partners-logo-corporations-avicienne,
+  .partners-logo-corporations-jwcorp {
+    width: calc(var(--width-original-partner-logo) * 0.6);
+    height: calc(var(--height-original-partner-logo) * 0.6);
+  }
+}
+@media (max-width: 530px) {
+  .partners-logo-corporations-huge-letter,
+  .partners-logo-corporations-human-lab,
+  .partners-logo-corporations-coinaute,
+  .partners-logo-corporations-avicienne,
+  .partners-logo-corporations-jwcorp {
+    width: calc(var(--width-original-partner-logo) * 0.5);
+    height: calc(var(--height-original-partner-logo) * 0.5);
+  }
 }
