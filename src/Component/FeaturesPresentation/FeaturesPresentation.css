@@ -93,12 +93,15 @@
 }
 .features-presentation-follow-tx-and-blockhains-container {
   display: flex;
+  justify-content: space-between;
   margin-top: 48px;
   width: 100%;
   max-width: 1320px;
+  /* background-color: yellow; */
 }
 .features-presentation-follow-tx-container {
-  width: 35.54%;
+  /* width: 35.54%; */
+  width: 454px;
   height: 276px;
   /* overflow: hidden; */
   /* background-image: url("../../Assets/rectangle-follow-tx.svg"); */
@@ -106,10 +109,10 @@
   /* border-radius: 8px; */
   z-index: 2;
   position: relative;
+  /* background-color: red; */
 }
 .features-presentation-follow-tx-wrap {
   width: 100%;
-  height: 100%;
   /* background-image: url("../../Assets/rectangle-follow-tx.svg");
   background-position: center;
   background-repeat: no-repeat;
@@ -118,11 +121,14 @@
 }
 .features-presentation-follow-tx-image {
   position: absolute;
-  /* top: 200px; */
+  /* width: ; */
+  /* width: 100%; */
+  width: 454px;
+  height: 275px !important;
+  /* object-fit: cover; bien pour garder la width inchangée mais les bords disparaissent */
 }
 .features-presentation-follow-tx-title {
   color: #2a3b51;
-
   font-family: "satoshi-regular";
   font-size: 20.445px;
   font-style: normal;
@@ -141,6 +147,70 @@
   display: flex;
   margin-left: 36px;
 }
+.features-presentation-multichains-container {
+  width: 804px;
+  /* min-height: 100%; */
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+
+  background: #fff;
+  /* max-height: 100%; */
+  /* margin-left: 40px; */
+}
+.features-presentation-multichains-title {
+  width: 100%;
+  color: #2a3b51;
+  font-family: "satoshi-regular";
+  font-size: 20.445px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24.675px;
+  margin-top: 22px;
+  margin-left: 32px;
+}
+.features-presentation-multichains-description {
+  color: rgba(42, 59, 81, 0.7);
+  font-family: "satoshi-regular";
+  font-size: 11.28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 12px;
+  margin-left: 32px;
+  padding-right: 10px;
+}
+.features-presentation-multichains-image {
+  margin-left: 32px;
+  margin-top: 38px;
+}
+@media (max-width: 1350px) {
+  .features-presentation-follow-tx-and-blockhains-container {
+    display: flex;
+    justify-content: flex-start;
+    /* flex-direction: column; */
+  }
+  /* .features-presentation-follow-tx-container{
+    width: 400px;
+    background-color: yellow;
+  } */
+  .features-presentation-multichains-container {
+    /* width: 700px; */
+    width: 50vw;
+    margin-left: 20px;
+    overflow: hidden;
+    /* background-color: red; */
+  }
+}
+@media (max-width: 1030px) {
+  .features-presentation-multichains-container {
+    width: 45vw;
+  }
+}
+@media (max-width: 930px) {
+  .features-presentation-multichains-container {
+    width: 40vw;
+  }
+}
 @media (max-width: 830px) {
   .features-presentation-concept-title,
   .features-presentation-concept-description,
@@ -148,6 +218,24 @@
   .features-presentation-multi-lang-description,
   .features-presentation-multi-lang-img-container {
     margin-left: 24px;
+  }
+  .features-presentation-follow-tx-and-blockhains-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .features-presentation-follow-tx-container {
+    /* width: 99%; */
+  }
+  .features-presentation-follow-tx-image {
+    /* width: 100%; */
+    /* background-color: #ffd94a; */
+    /* object-fit: cover; */
+  }
+  .features-presentation-multichains-container {
+    width: 99%;
+    /* background-color: red; */
+    margin-top: 20px;
+    margin-left: 0px;
   }
 }
 @media (max-width: 630px) {
