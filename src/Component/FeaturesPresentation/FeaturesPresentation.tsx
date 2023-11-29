@@ -50,6 +50,11 @@ function FeaturesPresentation() {
                 src={rectangleDashed}
                 alt="rectangle dashed"
               />
+              <img
+                className="features-presentation-follow-tx-image-second"
+                src={rectangleDashed}
+                alt="rectangle dashed"
+              />
               <div className="features-presentation-follow-tx-title">
                 Suivre vos transactions n’a jamais été aussi simple
               </div>
@@ -60,7 +65,11 @@ function FeaturesPresentation() {
                     alt="betterscan logo orange"
                   />
                 </div>
-                <img src={lastTransactions} alt="betterscan logo orange" />
+                <img
+                  className="features-presentation-follow-tx-last-transactions-image"
+                  src={lastTransactions}
+                  alt="last transactions"
+                />
               </div>
             </div>
           </div>
