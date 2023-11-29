@@ -16,7 +16,38 @@
   /* background-color: blueviolet; */
   overflow: hidden;
 }
-
+.error-message-display-to-small {
+  display: none;
+}
+@media (max-width: 330px) {
+  .landing-page-container {
+    display: none;
+  }
+  .error-message-display-to-small {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 24px;
+    position: relative;
+  }
+  .error-message-display-to-small::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("./Assets/betterScanLogo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50vw;
+    opacity: 0.2;
+    z-index: -1;
+  }
+}
 @media (max-width: 1400px) {
   .landing-page-wrap {
     width: 95%;
