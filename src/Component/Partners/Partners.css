@@ -1,0 +1,118 @@
+.partners-container {
+  background-color: white;
+  /* background-color: #f74545 ; */
+  min-height: 50vh;
+  /* min-width:120vw !important; */
+  /* transform: translateX(-20vw) ; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+}
+.partners-wrap {
+  width: 100%;
+  height: 80%;
+  /* background-color: darkcyan; */
+}
+.partners-title-and-description-container {
+  /* background-color: red; */
+  color: #2a3b51;
+  font-family: "satoshi-regular";
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+}
+.partners-title-container span {
+  background: var(
+    --orange-gradient,
+    linear-gradient(90deg, #ffd94a -27.11%, #f74545 53.98%, #95649d 128.58%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* font-family: Satoshi; */
+  font-size: 42px;
+  font-style: normal;
+  /* font-weight: 700; */
+  line-height: 50px;
+  /* background-color: violet; */
+  padding-left: 12px;
+}
+.partners-description-container {
+  color: rgba(0, 0, 0, 0.6);
+
+  font-family: "manrope-regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 15px;
+}
+.partners-logo-corporations-partners {
+  height: 90px;
+  width: 100%;
+
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.partners-logo-corporations-huge-letter {
+  background-image: url("../../Assets/huge-letter-partner.svg");
+  background-color: lightgray;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position: 50% 50%; */
+  mix-blend-mode: luminosity;
+  width: 169px;
+  height: 70px;
+}
+.partners-logo-corporations-human-lab {
+  background-image: url("../../Assets/human-lab-partner.svg");
+  background-color: lightgray;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position: 50% 50%; */
+  mix-blend-mode: luminosity;
+  width: 70px;
+  height: 70px;
+}
+.partners-logo-corporations-coinaute {
+  background-image: url("../../Assets/coinaute-partner.svg");
+  background-color: lightgray;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position: 50% 50%; */
+  mix-blend-mode: luminosity;
+  width: 147px;
+  height: 70px;
+}
+.partners-logo-corporations-avicienne {
+  background-image: url("../../Assets/avicienne-partner.svg");
+  background-color: lightgray;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position: 50% 50%; */
+  mix-blend-mode: luminosity;
+  width: 70px;
+  height: 70px;
+}
+.partners-logo-corporations-jwcorp {
+  background-image: url("../../Assets/jwcorp-partner.svg");
+  background-color: lightgray;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position: 50% 50%; */
+  mix-blend-mode: luminosity;
+  width: 90px;
+  height: 90px;
+}
+.partners-logo-corporations-huge-letter:hover,
+.partners-logo-corporations-human-lab:hover,
+.partners-logo-corporations-coinaute:hover,
+.partners-logo-corporations-avicienne:hover,
+.partners-logo-corporations-jwcorp:hover {
+  mix-blend-mode: normal;
+  transition-duration: 400ms;
+}
