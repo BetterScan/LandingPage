@@ -4,6 +4,7 @@ import LandingPrincipal from "./Component/LandingPrincipal/LandingPrincipal.tsx"
 import FeaturesPresentation from "./Component/FeaturesPresentation/FeaturesPresentation.tsx";
 import Navbar from "./Component/Navbar/Navbar.tsx";
 import Partners from "./Component/Partners/Partners.tsx";
+import ProductOverview from "./Component/ProductOverview/ProductOverview.tsx";
 // import { slide as Menu } from "react-burger-menu";
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
           <Navbar />
           <LandingPrincipal />
           <FeaturesPresentation />
-          <Partners/>
+          <Partners />
+          <ProductOverview />
           {/* <Menu width={"280px"}>
         <button className="navbar-cta-button-side-menu">
         M'avertir de la sortie

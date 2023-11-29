@@ -1,0 +1,45 @@
+.product-overview-container {
+  min-height: 100vh;
+  width: 100%;
+  margin-top: 74px;
+  /* background-color: rgba(255, 0, 0, 0.466); */
+  display: flex;
+}
+.product-overview-title-and-description-container {
+  padding-top: 84px;
+}
+.product-overview-title-container {
+  color: #2a3b51;
+  font-family: "satoshi-regular";
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+}
+.product-overview-title-container span {
+  background: var(
+    --orange-gradient,
+    linear-gradient(90deg, #ffd94a -27.11%, #f74545 53.98%, #95649d 128.58%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* font-family: Satoshi; */
+  font-size: 42px;
+  font-style: normal;
+  /* font-weight: 700; */
+  line-height: 50px;
+  /* background-color: violet; */
+  padding-left: 12px;
+}
+.product-overview-description-container {
+  color: rgba(0, 0, 0, 0.6);
+  font-feature-settings: "salt" on, "liga" off;
+  font-family: "manrope-regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  max-width: 436px;
+  margin-top: 37px;
+}
