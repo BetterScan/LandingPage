@@ -1,0 +1,61 @@
+.team-container {
+  min-height: 90vh;
+  background-color: red;
+}
+.team-title-and-description-container {
+}
+.team-title {
+  color: #2a3b51;
+  font-family: "satoshi-regular";
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+}
+.team-title span {
+  background: var(
+    --orange-gradient,
+    linear-gradient(90deg, #ffd94a -27.11%, #f74545 53.98%, #95649d 128.58%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* font-family: Satoshi; */
+  font-family: "satoshi-regular";
+  font-size: 38px;
+  font-style: normal;
+  /* font-weight: 700; */
+  line-height: 50px;
+  padding-left: 12px;
+}
+
+.team-title-description {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "manrope-regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 15px;
+}
+.team-members-bloc-container {
+}
+.team-members-founder-container {
+width: fit-content;
+display: flex;
+}
+
+.team-members-profile-pic-and-name-and-job {
+  width: 120px;
+  height: 120px;
+  border-radius: 120px;
+  border: 1px solid var(--orange-gradient, #ffd94a);
+  /* background: url(), lightgray 50% / cover no-repeat; */
+  background: url(), cover no-repeat;
+}
+.team-members-founder-profile-pic-container {
+}
+.team-members-founder-name {
+}
+.team-members-founder-job {
+}
