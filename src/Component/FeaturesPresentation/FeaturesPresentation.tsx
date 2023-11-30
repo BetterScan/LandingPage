@@ -84,7 +84,7 @@ function FeaturesPresentation() {
             <img
               className="features-presentation-multichains-image"
               src={multiChainsImage}
-              alt="multi-chaines image"
+              alt="multi-chaines"
             />
           </div>
         </div>

@@ -20,7 +20,7 @@ function ProductOverview() {
           un même et unique explorateur. Réduisons les barrières à l’entrée !
         </div>
       </div>
-      <div className="">
+      <div className="product-overview-image-container">
         <img src={overviewProductImage} alt="betterscan overview product" />
       </div>
     </div>
