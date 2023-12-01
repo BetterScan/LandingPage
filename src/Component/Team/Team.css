@@ -1,6 +1,6 @@
 .team-container {
   min-height: 90vh;
-  background-color: red;
+  /* background-color: red; */
 }
 .team-title-and-description-container {
 }
@@ -39,23 +39,79 @@
   margin-top: 15px;
 }
 .team-members-bloc-container {
+  margin-top: 58px;
 }
 .team-members-founder-container {
-width: fit-content;
-display: flex;
+  width: fit-content;
+  display: flex;
 }
 
 .team-members-profile-pic-and-name-and-job {
+  /* width: 120px;
+  height: 120px;
+  border-radius: 120px;
+  border: 1px solid var(--orange-gradient, #ffd94a); */
+  /* background: url(), lightgray 50% / cover no-repeat; */
+  background:  cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.team-members-founder-profile-pic-container {
   width: 120px;
   height: 120px;
   border-radius: 120px;
-  border: 1px solid var(--orange-gradient, #ffd94a);
-  /* background: url(), lightgray 50% / cover no-repeat; */
-  background: url(), cover no-repeat;
+  border: 2px solid var(--orange-gradient, #ffd94a);
+  z-index: 2;
 }
-.team-members-founder-profile-pic-container {
+.team-members-founder-profile-pic-container img{
+width: 120px;
+height: 120px;
+border-radius: 120px;
+z-index: 1;
 }
 .team-members-founder-name {
+  color: #000;
+  font-family: "satoshi-regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  margin-top: 8px;
+}
+.team-member-founder-job-container {
+  padding: 4px 6px;
+  text-align: center;
+  border-radius: 4px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 217, 74, 0.12) -27.11%,
+    rgba(247, 69, 69, 0.12) 53.98%,
+    rgba(149, 100, 157, 0.12) 128.58%
+  );
+  margin-top: 8px;
 }
 .team-members-founder-job {
+  font-family: "manrope-regular";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 12px;
+  background: var(
+    --orange-gradient,
+    linear-gradient(90deg, #ffd94a -27.11%, #f74545 53.98%, #95649d 128.58%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.team-members-founders-description {
+  color: #1a1e2c;
+  font-family: "manrope-regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  margin-left: 50px;
+  margin-top: 26px;
 }
