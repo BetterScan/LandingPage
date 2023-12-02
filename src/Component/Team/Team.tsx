@@ -35,6 +35,26 @@ function Team() {
             principale mission.
           </div>
         </div>
+        <div className="team-members-developer-container">
+          <div className="team-members-profile-pic-and-name-and-job">
+            <div className="team-member-profile-pic-line-up-connection"></div>
+            <div className="team-members-developer-profile-pic-container">
+              <img
+                src="https://media.licdn.com/dms/image/D5603AQE6JEj2mAjSiA/profile-displayphoto-shrink_800_800/0/1695207690384?e=1707350400&v=beta&t=Qt8QLSPP552I8ruPjqw1TvAiWT4ghQTqE-BcKtjnW48"
+                alt=""
+              />
+            </div>
+            <div className="team-members-developer-name">Rémi Blaise</div>
+            <div className="team-member-developer-job-container">
+              <div className="team-members-developer-job">Designer UI/UX</div>
+            </div>
+          </div>
+          <div className="team-members-developers-description">
+            La conception est le coeur de travail de l’équipe BetterScan. Pour
+            eux, la perfection de l'expérience utilisateur passe par la
+            réflexion minutieuse de chaque détail.
+          </div>
+        </div>
       </div>
     </div>
   );
