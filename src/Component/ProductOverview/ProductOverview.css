@@ -4,6 +4,7 @@
   margin-top: 74px;
   /* background-color: rgba(255, 0, 0, 0.466); */
   display: flex;
+  padding-bottom: 100px;
 }
 .product-overview-title-and-description-container {
   padding-top: 84px;

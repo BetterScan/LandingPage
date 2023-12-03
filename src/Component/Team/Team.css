@@ -122,11 +122,11 @@
   margin-left: 50px;
   margin-top: 26px;
 }
-/* ---------------- DEVELOPER ------------------------------ */
-.team-members-developer-container {
+/* ---------------- DESIGNER ------------------------------ */
+.team-members-designer-container {
   width: fit-content;
   display: flex;
-  margin-top:  11px;
+  margin-top: 11px;
 }
 
 .team-members-profile-pic-and-name-and-job {
@@ -150,7 +150,7 @@
   );
   /* border: 1px solid var(--orange-gradient, #ffd94a); */
 }
-.team-members-developer-profile-pic-container {
+.team-members-designer-profile-pic-container {
   width: 124px;
   height: 124px;
   border-radius: 124px;
@@ -164,13 +164,13 @@
   justify-content: center;
   align-items: center;
 }
-.team-members-developer-profile-pic-container img {
+.team-members-designer-profile-pic-container img {
   width: 120px;
   height: 120px;
   border-radius: 120px;
   z-index: 1;
 }
-.team-members-developer-name {
+.team-members-designer-name {
   color: #000;
   font-family: "satoshi-regular";
   font-size: 16px;
@@ -178,8 +178,9 @@
   font-weight: 700;
   line-height: 16px;
   margin-top: 8px;
+  text-align: center;
 }
-.team-member-developer-job-container {
+.team-member-designer-job-container {
   padding: 4px 6px;
   text-align: center;
   border-radius: 4px;
@@ -191,7 +192,111 @@
   );
   margin-top: 8px;
 }
-.team-members-developer-job {
+.team-members-designer-job {
+  font-family: "manrope-regular";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 12px;
+  background: var(
+    --orange-gradient,
+    linear-gradient(90deg, #ffd94a -27.11%, #f74545 53.98%, #95649d 128.58%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.team-members-designer-description {
+  color: #1a1e2c;
+  font-family: "manrope-regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  margin-left: 50px;
+  margin-top: 76px;
+}
+/* ---------------- DEVELOPERS ------------------------------ */
+.team-members-developers-container {
+  width: fit-content;
+  display: flex;
+  margin-top: 11px;
+}
+.team-members-developers-member-container {
+  display: flex;
+  align-items: center;
+}
+.team-members-profile-pic-and-name-and-job-second {
+  margin-top: 40px;
+}
+.team-member-profile-pic-line-side-connection {
+  width: 60px;
+  height: 2px;
+  /* background-color: var(--orange-gradient, #ffd94a) ; */
+  background: var(
+    --orange-gradient,
+    linear-gradient(180deg, #ffd94a -27.11%, #f74545 53.98%, #95649d 128.58%)
+  );
+}
+.team-members-profile-pic-and-name-and-job,
+.team-members-profile-pic-and-name-and-job-second {
+  background: cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.team-member-profile-pic-line-up-connection {
+  height: 40px;
+  width: 2px;
+  /* background-color: var(--orange-gradient, #ffd94a) ; */
+  background: var(
+    --orange-gradient,
+    linear-gradient(180deg, #ffd94a -27.11%, #f74545 53.98%, #95649d 128.58%)
+  );
+}
+.team-members-developers-profile-pic-container {
+  width: 124px;
+  height: 124px;
+  border-radius: 124px;
+  /* border: 2px solid var(--orange-gradient, #ffd94a); */
+  background: var(
+    --orange-gradient,
+    linear-gradient(90deg, #ffd94a -27.11%, #f74545 53.98%, #95649d 128.58%)
+  );
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.team-members-developers-profile-pic-container img {
+  width: 120px;
+  height: 120px;
+  border-radius: 120px;
+  z-index: 1;
+}
+.team-members-developers-name {
+  color: #000;
+  font-family: "satoshi-regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  margin-top: 8px;
+  text-align: center;
+}
+.team-member-developers-job-container {
+  padding: 4px 6px;
+  text-align: center;
+  border-radius: 4px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 217, 74, 0.12) -27.11%,
+    rgba(247, 69, 69, 0.12) 53.98%,
+    rgba(149, 100, 157, 0.12) 128.58%
+  );
+  margin-top: 8px;
+}
+.team-members-developers-job {
   font-family: "manrope-regular";
   font-size: 12px;
   font-style: normal;
@@ -214,4 +319,178 @@
   line-height: 24px; /* 150% */
   margin-left: 50px;
   margin-top: 76px;
+}
+@media (max-width: 1130px) {
+  .team-title,
+  .team-title span {
+    font-size: 35px;
+  }
+  .team-members-founder-name,
+  .team-members-designer-name,
+  .team-members-developers-name {
+    font-size: 14px;
+  }
+  .team-members-profile-pic-and-name-and-job-second {
+    margin-top: 50px;
+    margin-left: -5px;
+  }
+  .team-members-founder-profile-pic-container,
+  .team-members-designer-profile-pic-container,
+  .team-members-developers-profile-pic-container {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .team-members-founder-profile-pic-container img,
+  .team-members-designer-profile-pic-container img,
+  .team-members-developers-profile-pic-container img {
+    width: 96px;
+    height: 96px;
+  }
+  .team-members-founders-description,
+  .team-members-designer-description,
+  .team-members-developers-description {
+    font-size: 14px;
+  }
+}
+/*  */
+@media (max-width: 630px) {
+  .team-title,
+  .team-title span {
+    font-size: 30px;
+  }
+  .team-title-description {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  .team-members-bloc-container {
+    margin-top: 40px;
+  }
+  .team-member-profile-pic-line-up-connection {
+    height: 30px;
+  }
+  .team-member-profile-pic-line-side-connection {
+    transform: translateY(-20px);
+  }
+  .team-members-founder-name,
+  .team-members-designer-name,
+  .team-members-developers-name {
+    font-size: 12px;
+  }
+  .team-members-developers-name {
+    min-height: 32px;
+  }
+  .team-members-profile-pic-and-name-and-job-second {
+    margin-top: 32px;
+    margin-left: -10px;
+  }
+  .team-members-founder-profile-pic-container,
+  .team-members-designer-profile-pic-container,
+  .team-members-developers-profile-pic-container {
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .team-members-founder-profile-pic-container img,
+  .team-members-designer-profile-pic-container img,
+  .team-members-developers-profile-pic-container img {
+    width: 76px;
+    height: 76px;
+  }
+  .team-member-founder-job-container {
+    padding: 5px 4px;
+  }
+  .team-members-founder-job,
+  .team-members-designer-job,
+  .team-members-developers-job {
+    font-size: 10px;
+  }
+  .team-members-founders-description,
+  .team-members-designer-description,
+  .team-members-developers-description {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .team-members-designer-description,
+  .team-members-developers-description {
+    margin-top: 56px;
+  }
+}
+/*  */
+@media (max-width: 430px) {
+  .team-title,
+  .team-title span {
+    font-size: 25px;
+  }
+  .team-title-description {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  .team-members-bloc-container {
+    margin-top: 25px;
+  }
+  .team-member-profile-pic-line-up-connection {
+    height: 30px;
+  }
+  .team-member-profile-pic-line-side-connection {
+    transform: translateY(-20px);
+    width: 50px;
+  }
+  .team-members-founder-name,
+  .team-members-designer-name,
+  .team-members-developers-name {
+    font-size: 12px;
+  }
+  .team-members-developers-name {
+    min-height: 32px;
+  }
+  .team-members-profile-pic-and-name-and-job-second {
+    margin-top: 32px;
+    margin-left: -10px;
+  }
+  .team-members-founder-profile-pic-container,
+  .team-members-designer-profile-pic-container,
+  .team-members-developers-profile-pic-container {
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .team-members-founder-profile-pic-container img,
+  .team-members-designer-profile-pic-container img,
+  .team-members-developers-profile-pic-container img {
+    width: 76px;
+    height: 76px;
+  }
+  .team-member-founder-job-container {
+    padding: 5px 4px;
+  }
+  .team-members-founder-job,
+  .team-members-designer-job,
+  .team-members-developers-job {
+    font-size: 10px;
+  }
+  .team-members-founders-description,
+  .team-members-designer-description,
+  .team-members-developers-description {
+    font-size: 10px;
+    line-height: 16px;
+  }
+  .team-members-founders-description{
+    margin-top: 16px;
+    margin-left: 25px;
+  }
+  .team-members-designer-description,
+  .team-members-developers-description {
+    margin-top: 46px;
+    margin-left: 25px;
+  }
 }
