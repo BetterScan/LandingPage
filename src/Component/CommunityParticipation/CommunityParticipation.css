@@ -1,0 +1,37 @@
+.community-participation-container {
+  min-height: 100vh;
+  margin-top: 40px;
+}
+.community-participation-title {
+  color: #2a3b51;
+  font-family: "satoshi-regular";
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px; /* 110.526% */
+}
+.community-participation-title span {
+  background: var(
+    --orange-gradient,
+    linear-gradient(90deg, #ffd94a -27.11%, #f74545 53.98%, #95649d 128.58%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* font-family: Satoshi; */
+  font-family: "satoshi-regular";
+  font-size: 38px;
+  font-style: normal;
+  /* font-weight: 700; */
+  line-height: 50px;
+  padding-left: 12px;
+}
+.community-participation-description {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "manrope-regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 15px;
+}

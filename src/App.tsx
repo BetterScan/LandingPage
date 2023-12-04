@@ -6,6 +6,8 @@ import Navbar from "./Component/Navbar/Navbar.tsx";
 import Partners from "./Component/Partners/Partners.tsx";
 import ProductOverview from "./Component/ProductOverview/ProductOverview.tsx";
 import Team from "./Component/Team/Team.tsx";
+import CommunityParticipation from "./Component/CommunityParticipation/CommunityParticipation.tsx";
+import FAQ from "./Component/FAQ/FAQ.tsx";
 // import { slide as Menu } from "react-burger-menu";
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
           <Partners />
           <ProductOverview />
           <Team />
+          <FAQ />
+          <CommunityParticipation />
           {/* <Menu width={"280px"}>
         <button className="navbar-cta-button-side-menu">
         M'avertir de la sortie
