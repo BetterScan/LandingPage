@@ -35,3 +35,58 @@
   line-height: normal;
   margin-top: 15px;
 }
+.community-participation-bloc-container {
+  width: 100%;
+  max-width: 1315px;
+  height: 626px;
+  border-radius: 8px;
+  border: 1px dashed #ffd94a;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 217, 74, 0.1) -27.11%,
+    rgba(247, 69, 69, 0.1) 53.98%,
+    rgba(149, 100, 157, 0.1) 128.58%
+  );
+  margin-top: 56px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.community-participation-questionnaire-container,
+.community-participation-telegram-container {
+  width: 520px;
+  height: 491px;
+  border-radius: 4px;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.community-participation-questionnaire-title {
+  color: #2a3b51;
+  font-family: "satoshi-regular";
+  font-size: 20.445px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24.675px; /* 120.69% */
+  margin-top: 22px;
+}
+.community-participation-questionnaire-description {
+  color: rgba(42, 59, 81, 0.7);
+  font-family: "satoshi-regular";
+  font-size: 11.28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 7px;
+}
+.community-participation-questionnaire-title,
+.community-participation-questionnaire-description {
+  width: 100%;
+  margin-left: 32px;
+  /* background-color: red; */
+}
+.community-participation-questionnaire-image-container {
+  margin-top: 49px;
+}
