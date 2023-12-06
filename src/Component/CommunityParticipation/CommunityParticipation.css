@@ -62,8 +62,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
-.community-participation-questionnaire-title {
+.community-participation-questionnaire-title,
+.community-participation-telegram-title {
   color: #2a3b51;
   font-family: "satoshi-regular";
   font-size: 20.445px;
@@ -72,7 +74,8 @@
   line-height: 24.675px; /* 120.69% */
   margin-top: 22px;
 }
-.community-participation-questionnaire-description {
+.community-participation-questionnaire-description,
+.community-participation-telegram-description {
   color: rgba(42, 59, 81, 0.7);
   font-family: "satoshi-regular";
   font-size: 11.28px;
@@ -82,11 +85,167 @@
   margin-top: 7px;
 }
 .community-participation-questionnaire-title,
-.community-participation-questionnaire-description {
-  width: 100%;
-  margin-left: 32px;
+.community-participation-questionnaire-description,
+.community-participation-telegram-title,
+.community-participation-telegram-description {
+  width: 85%;
+  /* margin-left: 32px; */
+  /* padding-left: 32px; */
   /* background-color: red; */
 }
 .community-participation-questionnaire-image-container {
   margin-top: 49px;
+}
+/* .community-participation-telegram-image-container {
+  margin-top: ;
+} */
+.community-participation-telegram-image-container img {
+  width: 341px;
+  margin-top: 44px;
+}
+.community-participation-questionnaire-button,
+.community-participation-telegram-button {
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background: var(
+    --orange-gradient,
+    linear-gradient(90deg, #ffd94a -27.11%, #f74545 53.98%, #95649d 128.58%)
+  );
+  width: 448px;
+  padding: 10px 16px;
+  /* margin-top: 42px; */
+  color: #fff;
+  position: absolute;
+  bottom: 32px;
+  font-family: "manrope-regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px; /* 112.5% */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.community-participation-questionnaire-button img,
+.community-participation-telegram-button img {
+  margin-left: 10px;
+}
+
+@media (max-width: 1230px) {
+  .community-participation-questionnaire-container,
+  .community-participation-telegram-container {
+    width: 420px;
+  }
+  /* .community-participation-questionnaire-image-container, */
+  .community-participation-telegram-image-container {
+    height: 100%;
+    /* background-color: red; */
+    margin-top: 15px;
+  }
+  .community-participation-questionnaire-image-container img {
+    width: 320px;
+  }
+  /* .community-participation-questionnaire-image-container img, */
+  .community-participation-telegram-image-container img {
+    width: 271px;
+  }
+  .community-participation-questionnaire-description,
+  .community-participation-questionnaire-button,
+  .community-participation-telegram-description,
+  .community-participation-telegram-button {
+    width: 85%;
+  }
+}
+@media (max-width: 1030px) {
+  .community-participation-questionnaire-container,
+  .community-participation-telegram-container {
+    width: 380px;
+  }
+}
+@media (max-width: 930px) {
+  .community-participation-questionnaire-container,
+  .community-participation-telegram-container {
+    width: 360px;
+  }
+}
+@media (max-width: 830px) {
+  .community-participation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .community-participation-bloc-container {
+    width: 80%;
+    height: 1050px;
+  }
+  .community-participation-bloc-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 630px) {
+  .community-participation-bloc-container {
+    width: 90%;
+    height: 1050px;
+  }
+}
+@media (max-width: 530px) {
+  .community-participation-bloc-container {
+    width: 90%;
+  }
+  .community-participation-questionnaire-container,
+  .community-participation-telegram-container {
+    width: 320px;
+  }
+  .community-participation-questionnaire-image-container {
+    margin-top: 70px;
+  }
+  /* .community-participation-questionnaire-image-container, */
+  .community-participation-telegram-image-container {
+    height: 100%;
+    /* background-color: red; */
+    margin-top: 15px;
+  }
+  .community-participation-questionnaire-image-container img {
+    width: 290px;
+  }
+  /* .community-participation-questionnaire-image-container img, */
+  .community-participation-telegram-image-container img {
+    width: 271px;
+  }
+  .community-participation-questionnaire-description,
+  .community-participation-questionnaire-button,
+  .community-participation-telegram-description,
+  .community-participation-telegram-button {
+    width: 85%;
+    font-size: 14px;
+  }
+}
+@media (max-width: 430px) {
+  .community-participation-bloc-container {
+    width: 95%;
+  }
+  .community-participation-questionnaire-container,
+  .community-participation-telegram-container {
+    width: 270px;
+  }
+  .community-participation-questionnaire-image-container {
+    margin-top: 70px;
+  }
+  .community-participation-telegram-image-container {
+    margin-top: 20px;
+  }
+  .community-participation-questionnaire-image-container img {
+    width: 250px;
+  }
+  .community-participation-telegram-image-container img {
+    width: 221px;
+  }
+  .community-participation-questionnaire-description,
+  .community-participation-questionnaire-button,
+  .community-participation-telegram-description,
+  .community-participation-telegram-button {
+    width: 90%;
+    font-size: 13px;
+  }
 }

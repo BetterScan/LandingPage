@@ -1,6 +1,9 @@
 import React from "react";
 import "./CommunityParticipation.css";
 import questionnaireImage from "../../Assets/questionnaire.svg";
+import telegramChatImage from "../../Assets/telegram-chat-screen.png";
+import fileCheckLogo from "../../Assets/file-check-logo.svg";
+import telegramWhiteLogo from "../../Assets/telegram-logo-white.svg";
 function CommunityParticipation() {
   return (
     <div className="community-participation-container">
@@ -26,8 +29,27 @@ function CommunityParticipation() {
           <div className="community-participation-questionnaire-image-container">
             <img src={questionnaireImage} alt="questionnaire" />
           </div>
+          <button className="community-participation-questionnaire-button">
+            Remplir le questionnaire
+            <img src={fileCheckLogo} alt="questionnaire logo" />
+          </button>
         </div>
-        <div className="community-participation-telegram-container"></div>
+        <div className="community-participation-telegram-container">
+          <div className="community-participation-telegram-title">
+            Rejoins-nous sur Telegram !
+          </div>
+          <div className="community-participation-telegram-description">
+            Lorem ipsum dolor u tendamas dolor u tendamas lorem ipsum dolor u
+            tendamas dolor.
+          </div>
+          <div className="community-participation-telegram-image-container">
+            <img src={telegramChatImage} alt="telegram" />
+          </div>
+          <button className="community-participation-telegram-button">
+            Rejoins-nous sur Telegram
+            <img src={telegramWhiteLogo} alt="telegram logo" />
+          </button>
+        </div>
       </div>
     </div>
   );
